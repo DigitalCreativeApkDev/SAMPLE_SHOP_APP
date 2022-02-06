@@ -67,7 +67,7 @@ public class Main {
     }
 
     static void initialiseConfirmationFrame() {
-        JFrame confirmationFrame = new JFrame();
+        JFrame confirmationFrame = new JFrame("Confirmation Page");
 
         // Creating panel
         JPanel confirmationPanel = new JPanel();
@@ -107,7 +107,7 @@ public class Main {
     }
 
     static void initialiseCartFrame() {
-        JFrame cartFrame = new JFrame();
+        JFrame cartFrame = new JFrame("Cart Page");
 
         // Creating panel
         JPanel cartPanel = new JPanel();
